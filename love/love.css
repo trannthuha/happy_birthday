@@ -700,5 +700,19 @@ body{
     width: 100%;
 }
 
-
-
+/* PHẦN CSS MỚI THÊM CHO CHỮ KÝ */
+.letter-signature {
+    position: absolute;
+    bottom: 35px;
+    right: 25px; /* Cách phải 100px để tránh đè lên con mèo */
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-align: center;
+    z-index: 200;
+    transform: rotate(-5deg);
+    color: #333;
+}
+.letter-signature b {
+    color: #EA4C89;
+    font-size: 22px;
+}
